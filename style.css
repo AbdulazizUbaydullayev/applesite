@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 44px;
+    background: #333;
+    position: sticky;
+    top: 0;
+}
+nav{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.collection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.item{
+    list-style: none;
+}
+.item span{
+    font-size: 12px;
+    color: #ddd;
+}
+.item i{
+    color: #ddd;
+}
+.macbook{
+    width: 100%;
+    height: 600px;
+    background: url("./img/hero_macbookair__el7scava26mq_large.png") no-repeat center/cover;
+    padding-top: 200px;
+    padding-left: 18%;
+}
+.macbook_text{
+    width: 500px;
+    text-align: center;
+}
+.macbook_text h1{
+    font-size: 50px;
+}
+.macbook_text h3{
+    padding: 20px 0px;
+    font-size: 28px;
+    font-weight: 300;
+}
+.link{
+    color: dodgerblue;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.link span{
+    font-size: 18px;
+}
+.link:hover span{
+    text-decoration: underline;
+}
+.ipad{
+    width: 100%;
+    height: 600px;
+    background: url("./img/hero_bts__bcuslanw39xe_large.jpg") no-repeat center/cover;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+.ipad h1{
+    font-size: 50px;
+    font-style: italic;
+}
+.ipad h1 span{
+    color: #CA2166;
+}
+.ipad h3{
+    font-size: 28px;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+.watch{
+    width: 100%;
+    height: 600px;
+    background: url("./img/hero_watch_lte__b8er858e34gi_large.jpg") no-repeat center/cover;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+.watch h1{
+    font-size: 50px;
+    text-align: center;
+}
+.watch h4{
+    color: #CA2166;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.watch h3{
+    font-size: 28px;
+    font-weight: 100;
+    padding-bottom: 15px;
+    margin-top: 5px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    width: 49.7%;
+    height: 550px;
+    margin-top: 10px;
+}
+.iphone13{
+    background: url("./img/promo_iphone13_avail__frc36u35m0ii_large.jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 40px;
+}
+.iphone13_pro{
+    background: url("./img/promo_iphone13pro_avail__beadms4ldidu_large\ \(1\).jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 40px;
+}
+.wrapper .iphone13 h3{
+    margin-top: 15px;
+}
+.links{
+    margin-top: 15px;
+}
+.wrapper .iphone13_pro h3{
+    margin-top: 15px;
+}
+.kompit{
+    background: url("./img/promo_mbp13__buwssod6c8vm_large.jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 40px;
+}
+.kompi{
+    background: url("./img/promo_ipadair_avail__ferd4bfpcdm6_large\ \(1\).jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 40px;
+}
+.wrapper .kompit h3{
+    margin-top: 15px;
+    color: white;
+}
+.wrapper .kompi h3{
+    margin-top: 15px;
+    color: white;
+}
+.wrapper .kompit h1{
+    color: white;
+}
+.wrapper .kompi h1{
+    color: white;
+}
+.naushni{
+    background: url("./img/tile__cauwwcyyn9hy_large\ \(3\).jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 40px;
+}
+.plasti{
+    background: url("./img/tile_arcade_subway_surfers__ct22ji6x4dm6_large.jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 40px;
+}
+.wrapper .naushni h3{
+    margin-top: 15px;
+}
+.wrapper .plasti h3{
+    margin-top: 15px;
+}
+.wrapper .naushni h4{
+    text-align: center;
+}
+.unic{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: -100px;
+}
+.unic h1{
+    margin-left: 40%;
+}
+.linn{
+    color: dodgerblue;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.linn span{
+    font-size: 18px;
+}
+.linn:hover span{
+    text-decoration: underline;
+}
+.lorem{
+    margin-left: 17%;
+    width: 70%;
+    height: 40%;
+}
